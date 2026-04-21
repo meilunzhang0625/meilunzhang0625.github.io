@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Meilun Zhang</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="banner">
+    <div class="banner-name">
+      <span class="name-main">Meilun Zhang</span>
+      <span class="name-sub">Researcher &amp; Academic</span>
+    </div>
+    <nav class="banner-nav">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="news.html" class="nav-btn">News</a>
+      <a href="research.html" class="nav-btn">Research</a>
+      <a href="contact.html" class="nav-btn active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h2 class="section-title">Contact</h2>
+      <p class="page-intro">
+        I welcome inquiries about research collaborations, speaking invitations, or questions about my work.
+        Feel free to reach out via email or the form below.
+      </p>
+    </section>
+
+    <section class="contact-grid">
+
+      <!-- LEFT: CONTACT INFO -->
+      <div class="contact-info">
+
+        <h3 style="font-family:var(--font-serif);font-size:1.35rem;font-weight:400;color:var(--accent);margin-bottom:1rem;">Get In Touch</h3>
+
+        <div class="contact-row">
+          <span class="icon">✉️</span>
+          <a href="mailto:meilun@university.edu">meilun@university.edu</a>
+        </div>
+
+        <div class="contact-row">
+          <span class="icon">🐦</span>
+          <a href="https://twitter.com/" target="_blank">@MeilunZhang</a>
+        </div>
+
+        <div class="contact-row">
+          <span class="icon">🎓</span>
+          <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+        </div>
+
+        <div class="contact-row">
+          <span class="icon">💻</span>
+          <a href="https://github.com/" target="_blank">GitHub</a>
+        </div>
+
+        <div class="contact-row">
+          <span class="icon">🔗</span>
+          <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+        </div>
+
+        <hr style="border:none;border-top:1px solid var(--border);margin:1.6rem 0;" />
+
+        <h3 style="font-family:var(--font-serif);font-size:1.35rem;font-weight:400;color:var(--accent);margin-bottom:1rem;">Office</h3>
+
+        <div class="contact-row" style="align-items:flex-start;">
+          <span class="icon">📍</span>
+          <span>
+            [Building Name], Room [###]<br/>
+            [Department Name]<br/>
+            [University Name]<br/>
+            [City, State, ZIP]
+          </span>
+        </div>
+
+        <div class="contact-row" style="margin-top:0.6rem;">
+          <span class="icon">📅</span>
+          <span>Office hours: [Days &amp; Times, or by appointment]</span>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: CONTACT FORM (static — wire up via Formspree or similar) -->
+      <div>
+        <h3 style="font-family:var(--font-serif);font-size:1.35rem;font-weight:400;color:var(--accent);margin-bottom:1rem;">Send a Message</h3>
+        <p style="font-size:0.84rem;color:var(--ink-light);margin-bottom:1.2rem;">
+          Note: This form can be connected to a service like 
+          <a href="https://formspree.io" target="_blank" style="color:var(--accent);">Formspree</a> for delivery.
+        </p>
+
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Research collaboration inquiry" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message here…" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Meilun Zhang &nbsp;·&nbsp; Built with ♡ and hosted on GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
