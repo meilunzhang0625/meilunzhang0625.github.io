@@ -188,9 +188,13 @@ body {
   padding: 1.1rem 1.2rem;
 }
 
+
 .highlight-icon { font-size: 1.2rem; }
 
 .highlight-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-sans);
   font-size: 0.78rem;
   font-weight: 500;
@@ -204,6 +208,7 @@ body {
   font-size: 0.88rem;
   color: var(--ink-mid);
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 /* ── RECENT HIGHLIGHTS ───────────────────────── */
