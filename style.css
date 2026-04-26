@@ -176,6 +176,8 @@ body {
 
 .about-photo-wrap {
   margin-bottom: 0;
+  width: 100%;
+  max-width: 300px;
 }
 
 .about-photo {
@@ -218,7 +220,7 @@ body {
 }
 
 .highlight-card p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--ink-mid);
   line-height: 1.5;
   margin-bottom: 10px;
