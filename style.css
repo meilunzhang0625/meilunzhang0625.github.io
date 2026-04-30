@@ -112,7 +112,7 @@ body {
 .hero-img-wrap {
   position: relative;
   width: 100%;
-  height: clamp(260px, 38vw, 480px);
+  height: clamp(150px, 22vw, 280px);
   overflow: hidden;
 }
 
@@ -401,26 +401,26 @@ body {
 
 .pub-item h4 {
   font-family: var(--font-sans);
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
 
 .pub-item .pub-venue {
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--accent-lt);
   font-style: italic;
 }
 
 .pub-item .pub-authors {
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--ink-light);
 }
 
 .pub-links { margin-top: 0.5rem; display: flex; gap: 0.6rem; }
 
 .pub-link {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -577,6 +577,7 @@ body {
   font-size: 1.2rem;
   color: var(--ink-mid);
   line-height: 1.7;
+  /* text-indent: 2em; */
 }
 
 
